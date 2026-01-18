@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chatbot de nuestra tienda de Informática</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main class="app">
+    <header class="header">
+      <h1>TechShop Assistant</h1>
+      <p>Asistente virtual. ¿En qué puedo ayudarte?</p>
+    </header>
+
+    <section class="quick">
+      <button class="quick-btn">Busco un portátil para estudiar</button>
+      <button class="quick-btn">Quiero un PC Gaming</button>
+      <button class="quick-btn">¿SSD o HDD? ¿Cuál me conviene?</button>
+      <button class="quick-btn">Mi PC va lento, ¿qué hago?</button>
+      <button class="quick-btn">¿Qué RAM necesito?</button>
+    </section>
+    
+    <section id="chat" class="chat"></section>
+    <footer class="input-area">
+      <input id="userInput" type="text" placeholder="Escribe tu consulta..." autocomplete="off"/>
+      <button id="sendBtn">Enviar</button>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
